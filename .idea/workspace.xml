@@ -165,11 +165,22 @@
       <workItem from="1689498341176" duration="415000" />
       <workItem from="1689498767697" duration="745000" />
       <workItem from="1689499526579" duration="332000" />
-      <workItem from="1689499865676" duration="4183000" />
+      <workItem from="1689499865676" duration="5152000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/FirstServlet.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
