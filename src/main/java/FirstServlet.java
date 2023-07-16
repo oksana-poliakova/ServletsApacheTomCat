@@ -25,6 +25,16 @@ public class FirstServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         resp.setContentType("text/html");  // Set the content type of the response to "text/html"
+
+        var headerNames = req.getHeaderNames();
+        while (headerNames.hasMoreElements()) {
+            var header = headerNames.nextElement();
+            System.out.println(req.getHeader(header));
+        }
+
+        resp.setContentType("text/html; charset=UTF-8");
+        resp.setHeader("Test header", "It's a custom header");
+
         try (PrintWriter writer = resp.getWriter()) {
             // Write the HTML content to the response writer.
             writer.write("<h1>Hello from First Servlet</h1>");
