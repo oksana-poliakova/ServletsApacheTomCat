@@ -44,20 +44,17 @@ public class FirstServlet extends HttpServlet {
     }
 
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        HttpServletRequestWrapper requestWrapper = new HttpServletRequestWrapper(req) {
-            @Override
-            public String getParameter(String name) {
-                if (name.equals("params")) {
-                    return "12345";
-                } else if (name.equals("values")) {
-                    return "test";
-                }
-                return super.getParameter(name);
+        try (var reader = req.getReader()) {
+            StringBuilder requestData = new StringBuilder();
+            String line;
+            while ((line = reader.readLine()) != null) {
+                requestData.append(line);
             }
-        };
-
-        var parameterMap = requestWrapper.getParameterMap();
-        System.out.println(parameterMap);
+            String[] lines = requestData.toString().split("\\r?\\n");
+            for (String lineData : lines) {
+                System.out.println(lineData);
+            }
+        }
     }
 
     @Override
