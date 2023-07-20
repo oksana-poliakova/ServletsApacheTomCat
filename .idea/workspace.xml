@@ -10,10 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c5ec31d-b100-4ad6-b9ac-48c7e0986ed3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/servlets/SessionServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DownloadServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlets/DownloadServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FirstServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlets/FirstServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/servlets/dto/UserDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/servlets/SessionServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlets/SessionServlet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,7 +167,7 @@
       <workItem from="1689498767697" duration="745000" />
       <workItem from="1689499526579" duration="332000" />
       <workItem from="1689499865676" duration="8071000" />
-      <workItem from="1689758208244" duration="3862000" />
+      <workItem from="1689758208244" duration="4248000" />
     </task>
     <servers />
   </component>
