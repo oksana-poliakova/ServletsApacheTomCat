@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="MavenApache:war" />
+      <artifact name="MavenApache:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
@@ -10,10 +10,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c5ec31d-b100-4ad6-b9ac-48c7e0986ed3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/servlets/CookieServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/servlets/SessionServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/first.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/first.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DownloadServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlets/DownloadServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FirstServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlets/FirstServlet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +78,7 @@
       </deployment>
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="2a40792a-1097-4e37-9830-cd9da25c62be" />
+        <option name="HTTP_PORT" value="8081" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -150,7 +151,7 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="MavenApache:war" />
+          <artifact name="MavenApache:war exploded" />
         </option>
       </method>
     </configuration>
@@ -168,7 +169,7 @@
       <workItem from="1689498767697" duration="745000" />
       <workItem from="1689499526579" duration="332000" />
       <workItem from="1689499865676" duration="8071000" />
-      <workItem from="1689758208244" duration="2343000" />
+      <workItem from="1689758208244" duration="3862000" />
     </task>
     <servers />
   </component>
